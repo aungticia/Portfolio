@@ -1,0 +1,69 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "A webapp that displays random famous quotes and changes background colors each time a button is clicked.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://aungticia.github.io/Random-Quote-Generator-/",
+        "github_link": "https://github.com/aungticia/Random-Quote-Generator-",
+        "image_urls": [
+          "/static/images/1/project-1-1.png",
+          "/static/images/1/project-1-2.png"
+        ]
+      },
+      {
+        "id": 1,
+        "project_name": "Data Pagination and Filtering",
+        "description": "An app that displays a list of students from a local data file, and uses pagination and filtering to navigate through the list.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://aungticia.github.io/Data-Pagination-and-Filtering/",
+        "github_link": "https://github.com/aungticia/Data-Pagination-and-Filtering",
+        "image_urls": [
+          "/static/images/2/project-2-1.png",
+          "/static/images/2/project-2-2.png",
+          "/static/images/2/project-2-3.png"
+        ]
+      },
+      {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "Full-Stack Conference interactive registration form.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://aungticia.github.io/Interactive-Form/",
+        "github_link": "https://github.com/aungticia/Interactive-Form",
+        "image_urls": [
+          "/static/images/3/project-3-1.png",
+          "/static/images/3/project-3-2.png",
+          "/static/images/3/project-3-3.png"
+        ]
+      },
+      {
+        "id": 3,
+        "project_name": "OOP-Game Show App",
+        "description": "Phrase hunter game, where players guess hidden phrases to win; however, if they make five incorrect guesses, they lose the game.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://aungticia.github.io/Game-Show-App/",
+        "github_link": "https://github.com/aungticia/Game-Show-App",
+        "image_urls": [
+          "/static/images/4/project-4-1.png",
+          "/static/images/4/project-4-2.png",
+          "/static/images/4/project-4-3.png"
+        ]
+      },
+      {
+        "id": 4,
+        "project_name": "Public API Requests",
+        "description": "An app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://aungticia.github.io/Public-API-Request/",
+        "github_link": "https://github.com/aungticia/Public-API-Request",
+        "image_urls": [
+          "/static/images/5/project-5-1.png",
+          "/static/images/5/project-5-2.png",
+          "/static/images/5/project-5-3.png"
+        ]
+      }
+    ]
+  }
+  
