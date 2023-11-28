@@ -1,8 +1,8 @@
-*** My Portfolio Website ***
+## My Portfolio Website 
 
 ## This is a simple portfolio website built using Node.js, Express.js, and Pug. The project showcases my recent projects, provides an introduction about me, and offers details about individual projects.
 
-*** Project Structure ***
+## Project Structure
     `views/`: Contains Pug templates for rendering HTML pages.
     `layout.pug`: The base layout template.
     `index.pug`: Home page template displaying recent projects.
@@ -14,12 +14,11 @@
     `data.json`: JSON file containing project data.
     `app.js`: Main Node.js/Express application file.
 
-*** Getting Started ***
+## Getting Started
     npm install 
     npm start 
     The application will be accessible at http://localhost:3000.
-
-*** Features ***
+## Features 
 ## Home Page (/):
     Displays a list of recent projects.
     Clicking on a project thumbnail navigates to the project details page.
@@ -33,17 +32,16 @@
     404 Not Found page for invalid routes.
     Global error handler for other types of errors.
 
-
-*** Technologies Used ***
+## Technologies Used 
     Node.js
     Express.js
     Pug templating engine
     JavaScript
 
 
-*** Author ***
+## Author 
     Aung May Oo
 
-*** License ***
+## License
     This project is licensed under the MIT License 
 
