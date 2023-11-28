@@ -2,13 +2,18 @@ extends layout.pug
 
 block content
 
-    div.error-message 
-        h1= `${err.status} - Page not found`
-        h2= `${err.message}`
-        pre= `${err.stack}`
+    div.error-message
+        if err
+            h1= `${err.status || 'Unknown Error'} - Page not found`
+            h2= `${err.message || 'Page not found'}`
+            pre= `${err.stack || 'No stack trace available'}`
+        else
+            h1= 'Unknown Error - Page not found'
+            h2= 'Page not found'
+            pre= 'No stack trace available'
 
     div 
         nav.nav
             a(href='/')
-              span &larr;
-              |  Back
+                span &larr;
+                |  Back

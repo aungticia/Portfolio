@@ -43,12 +43,13 @@ app.use((err, req, res, next) => {
     if (err.status === 404) {
         res.render('page-not-found', { err });
     } else {
-        const err = new Error();
-        err.message = err.message || `Something went wrong!`;
-        console.log(err.message);
-        res.status(err.status || 500).render('error', { err });
+        const error = new Error();
+        error.message = err.message || `Something went wrong!`;
+        console.log(error.message);
+        res.status(error.status || 500).render('error', { err: error });
     }
-})
+});
+
 
 // Local Host
 app.listen(3000, () => {
