@@ -63,6 +63,60 @@
           "/static/images/5/project-5-2.png",
           "/static/images/5/project-5-3.png"
         ]
+      },
+      {
+        "id": 5,
+        "project_name": "To-Do List",
+        "description": "An app where you can list all your plans to do.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://aungticia.github.io/To-Do-List/",
+        "github_link": "https://github.com/aungticia/To-Do-List",
+        "image_urls": [
+          "/static/images/6/project-6-1.png",
+          "/static/images/6/project-6-2.png",
+          "/static/images/6/project-6-3.png"
+        ]
+      },
+      {
+        "id": 6,
+        "project_name": "An Invitation App",
+        "description": "An app where you can invite your friends and anyone who wants to join your party. You can edit the names if you missed type them. And you can see who confirms to come to your party.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "live_link": "https://aungticia.github.io/An-Invitation-App/",
+        "github_link": "https://github.com/aungticia/An-Invitation-App",
+        "image_urls": [
+          "/static/images/7/project-7-1.png",
+          "/static/images/7/project-7-2.png",
+          "/static/images/7/project-7-3.png"
+        ]
+      },
+      {
+        "id": 7,
+        "project_name": "Flag Explorer",
+        "description": "An app where you can explore each country's population, region and capital city by clicking the flag.",
+        "technologies": ["HTML", "CSS", "JavaScript", "API"],
+        "live_link": "https://aungticia.github.io/Flag-Explorer/",
+        "github_link": "https://github.com/aungticia/Flag-Explorer",
+        "image_urls": [
+          "/static/images/8/project-8-1.png",
+          "/static/images/8/project-8-2.png",
+          "/static/images/8/project-8-3.png"
+        ]
+      },
+      {
+        "id": 8,
+        "project_name": "Flashcards",
+        "description": "An app where you will enter your name and play the card. You can look at the hint if you want. You can flip the card and the answer will be there.",
+        "technologies": ["JavaScript", "Pug", "Express.js", "Node.js"],
+        "live_link": "https://express-flashcards-5ed6263c7bf2.herokuapp.com/hello",
+        "github_link": "https://github.com/aungticia/Flashcards",
+        "image_urls": [
+          "/static/images/9/project-9-1.png",
+          "/static/images/9/project-9-2.png",
+          "/static/images/9/project-9-3.png",
+          "/static/images/9/project-9-4.png",
+          "/static/images/9/project-9-5.png"
+        ]
       }
     ]
   }
